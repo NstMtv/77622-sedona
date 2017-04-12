@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+﻿# Личный проект «Седона»
 
 * Студент: [Anastasia Matveeva](https://up.htmlacademy.ru/htmlcss/17/user/77622).
-* Наставник: `Неизвестно`.
+* Наставник: Альбина Токарчук [Albina Tokarchuk]
 
 ---
 

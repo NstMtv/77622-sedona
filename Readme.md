@@ -2,7 +2,7 @@
 
 * Студент: [Anastasia Matveeva](https://up.htmlacademy.ru/htmlcss/17/user/77622).
 * Наставник: Альбина Токарчук [Albina Tokarchuk]
-А меня чего-то получилось!))
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>

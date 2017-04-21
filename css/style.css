@@ -1,0 +1,69 @@
+.body {
+	font-family: PT Sans, Arial sans-serif;
+	color: rgb(0,0,0,0);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: regular;
+}
+.main-navigation {
+	font-weight: bold;
+	line-height: 26px;
+}
+.description h1{
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.causes-content-left h2{
+	color: #fff;
+	font-weight: bold;
+	line-height: 21px;	
+}
+.causes-content-left span{
+	line-height: 21px;
+	color: #fff;
+}
+.services-item b{
+	font-weight: bold;
+	line-height: 21px;	
+}
+.services-item p{
+	line-height: 21px;	
+}
+}
+.attraction-content-right h2{
+	color: #fff;
+	font-weight: bold;
+	line-height: 21px;	
+}
+.attraction-content-right span{
+	line-height: 21px;
+	color: #fff;
+}
+}
+.dignity-item b{
+	font-weight: bold;
+	line-height: 21px;
+}
+.dignity-item p{
+	line-height: 21px;	
+}
+.interesting-name {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 24px;	
+}
+.interesting p{
+	line-height: 24px;
+}
+.motels h2{
+	background-color: #766357;
+	color: #fff;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+}
+.motels span{
+	font-weight: bold;
+	line-height: 26px;
+}

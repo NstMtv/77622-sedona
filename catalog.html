@@ -3,32 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Гостиницы</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
         <div class="container">
-        <nav class="main-navigation">
-            <ul>
-                <li>
-                    <a href="#">Информация</a>
-                </li>
-                <li>
-                    <a href="#">Фото и видео</a> 
-                </li>
+            <nav class="main-navigation">
                 <div class="logo">
                     <a href="index.html">
                         <img src="img/logo.png" width="137" height="70">
                     </a>
                 </div>
-                <li>
-                    <a href="#">Карта штата</a>
-                </li>
-                <li>
-                    <a href="catalog.html">Гостиницы</a>
-                </li>
-            </ul>
-        </nav>  
+                <ul>
+                    <li class="menu-info">
+                        <a href="#">Информация</a>
+                    </li>
+                    <li class="menu-foto">
+                        <a href="#">Фото и видео</a> 
+                    </li>
+                    <li class="menu-map">
+                        <a href="#">Карта штата</a>
+                    </li>
+                    <li class="menu-hotel">
+                        <a href="catalog.html">Гостиницы</a>
+                    </li>
+                </ul>
+            </nav>  
         </div>
     </header>
     <main class="container">
@@ -36,42 +37,42 @@
             <div class="hotel-setting-left">
                 <div class="infrastructure">
                     <span class="housing">Инфраструктура:</span>    
-                    <label>
-                        <input type="checkbox" name="pool" checked><span class="service">Бассейн</span>  
-                    </label>
-                    <label>
-                        <input type="checkbox" name="parking"><span class="service">Парковка</span> 
-                    </label>
-                    <label>
-                        <input type="checkbox" name="wi-fi"><span class="service">WI-FI</span> 
-                    </label>
+                    <input type="checkbox" id="pool" checked>
+                    <label for="pool">Бассейн</label>
+                    <input type="checkbox" id="parking">
+                    <label for="parking">Парковка</label>
+                    <input type="checkbox" id="wifi">
+                    <label for="wifi">WI-FI</label>
                 </div>
                 <div class="accomodation">
                     <span class="housing">Тип жилья:</span>
-                    <label>
-                        <input type="checkbox" name="hotel" checked><span class="type-of-accomodation">Гостиницы</span> 
-                    </label>    
-                    <label>
-                        <input type="checkbox" name="motel" checked><span class="type-of-accomodation">Мотели</span> 
-                    </label>
-                    <label>
-                        <input type="checkbox" name="apartment" checked><span class="type-of-accomodation">Апартаменты</span> 
-                    </label>
+                    <input type="checkbox" id="hotel" checked>
+                    <label for="hotel">Гостиницы</label>
+                    <input type="checkbox" id="motel">
+                    <label for="motel">Мотели</label>
+                    <input type="checkbox" id="apartment" checked>
+                    <label for="apartment">Апартаменты</label>
                 </div>
             </div>
             <div class="hotel-setting-right">
-                <div class="value">
-                    <span>Стоимoсть в сутки(р):</span>
-                    <label>
-                        от <input type="text" min="0" value="0"> 
-                    </label>
-                    <label>
-                        до <input type="text" max="3000" value="3000">
-                    </label>
-                    <div class="range">
-                        <span class="range-element"></span>
+                <div class="filter-range">
+                    <div class="filter-range-title">Стоимoсть в сутки (р):</div>
+                    <div class="price-controls">
+                        <label class="min-price">от
+                            <input type="text" name="min-price" min="0" value="0"> 
+                        </label>
+                        <label class="max-price">до
+                            <input type="text" name="max-price" max="3000" value="3000">
+                        </label>
                     </div>
-                    <button type="submit">Показать</button>
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar"></div>
+                        </div>
+                        <div class="range-toggle range-toggle-min"></div>
+                        <div class="range-toggle range-toggle-max"></div>
+                    </div>
+                    <button class="btn-transparent" type="submit">Показать</button>
                 </div> 
             </div> 
         </form>
@@ -155,9 +156,9 @@
             <div class="container">
                 <a href="#">#Visitsedona</a>
                 <section class="footer-social">
-                    <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
-                    <a href="#" class="social-btn social-btn-tw">Твитер</a>
-                    <a href="#" class="social-btn social-btn-youtube">Ютуб</a> 
+                     <a href="#" class="social-btn social-btn-tw">Twitter</a>
+                     <a href="#" class="social-btn social-btn-fb">Facebook</a>
+                     <a href="#" class="social-btn social-btn-youtube">Ютуб</a> 
                 </section>
                 <section class="footer-copyright">
                     <p>Website by: </p>
